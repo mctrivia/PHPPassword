@@ -91,6 +91,8 @@ class Password {
 		return self::setHash($user,$hash);
 	}
 }
+/*
 //        Usages
 echo "Is password 12345678 Correct:" . (Password::checkPass('','12345678')?'true':'false') . '<br/>';
 Password::savePass('test','12345678');	//notice hash will be different each time.  this is a security feature.
+*/
